@@ -11,7 +11,7 @@ public class DbConnect {
         try{
             String dbUrl = "jdbc:oracle:thin:@localhost:1521:xe";
             String username = "system";
-            String password = "chemicalBond";
+            String password = "124";
             
             con = DriverManager.getConnection(dbUrl, username, password);
              
